@@ -36,9 +36,11 @@ var mensajes = new Array(
   "Y si tienes que empezar de nuevo, pues se empieza"
 );
 
+var elemento = document.getElementById("mensajerandom");
+
 function GetValue() {
     var random = mensajes[Math.floor(Math.random() * mensajes.length)];
     //alert(random);
-    document.getElementById("mensajerandom").innerHTML = random;
-    document.getElementById("mensajerandom").style.color = "#739c72";
+    elemento.innerHTML = random;
+    elemento.style.color = "#739c72";
   }
