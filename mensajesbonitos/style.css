@@ -10,14 +10,27 @@ img {
     background-image: linear-gradient(to right, #f2edc0 0, #ddedea 100%);
     height: 100%;
   }
-  h3 {
+
+  [role="banner"] {
+    display: flex;
+  }
+
+  [role="banner"]::before {
+    content: '';
+    display: block;
+    background: url('./Hojitas.png') no-repeat center center;
+    background-size: contain;
+    width: 3em;
+  }
+
+  [role="banner"] p {
     color: #8db383;
     margin-top: 25px;
     margin-left: 10px;
-    display: inline-block;
     text-transform: uppercase;
     font-size: 15px;
   }
+
   hr {
     height: 0px;
     margin-bottom: 10px;
