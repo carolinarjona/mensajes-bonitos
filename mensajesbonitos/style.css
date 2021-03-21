@@ -70,7 +70,7 @@ img {
     padding: 5%;
   }
 
-  #boxshadow {
+  main {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -81,6 +81,7 @@ img {
     border: 5px solid #d4e0bc;
     box-shadow: 6px 10px #d4e0bc;
   }
+
   footer {
     font-size: 14px;
     color: #5d574e;
